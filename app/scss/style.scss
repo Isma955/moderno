@@ -52,7 +52,6 @@
         display: inline-block;
         & + li{
             margin-left: 30px;
-
         }
     }
     a{
@@ -60,3 +59,28 @@
         font-size: 14px;
     }
 }
+
+    .search{
+        background-image: url(../images/search-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 533px;
+    }
+
+    .search__inner{
+        padding: 135px 0px 100px;
+        color: #fff;
+        text-align: center;
+        
+        &-title{
+            margin-bottom: 28px;
+            font-size: 48px;
+            font-weight: 700;
+        }
+        &-text{
+            margin-bottom: 50px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
